@@ -22,10 +22,10 @@ var gulp          = require('gulp'),
 
 gulp.task('scripts', function() {
 	return gulp.src([
-        'app/libs/jquery/dist/jquery.min.js',
-        'app/libs/jquery.maskedinput-master/dist/jquery.maskedinput.min.js',
+        'app/libs/jquery/jquery.min.js',
+        'app/libs/jquery.maskedinput-master/jquery.maskedinput.min.js',
         'app/libs/svgxuse-master/svgxuse.min.js',
-        'app/libs/WOW-master/dist/wow.min.js',
+        'app/libs/WOW-master/wow.min.js',
 
       ])
       //.pipe(concat('scripts.min.js')) // Конкатенация js (опц.)
